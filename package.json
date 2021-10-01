@@ -1,0 +1,22 @@
+{
+  "name": "easy-commerce",
+  "private": false,
+  "version": "1.0.0",
+  "scripts": {
+    "start:Customers.Api": "dotnet run --project src/server/Apis/Customers/Customers.Api/Customers.Api.csproj",
+    "build:Customers.Api": "dotnet build src/server/Apis/Customers/Customers.Api/Customers.Api.csproj",
+    "publish:Customers.Api": "dotnet publish src/server/Apis/Customers/Customers.Api/Customers.Api.csproj",
+    "clean:Customers.sln": "dotnet clean src/server/Apis/Customers/Customers.sln",
+    "restore:Customers.sln": "dotnet restore src/server/Apis/Customers/Customers.slns",
+    "start:Orders.Api": "dotnet run --project src/server/Apis/Orders/Orders.Api/Orders.Api.csproj",
+    "build:Orders.Api": "dotnet build src/server/Apis/Orders/Orders.Api/Orders.Api.csproj",
+    "publish:Orders.Api": "dotnet publish src/server/Apis/Orders/Orders.Api/Orders.Api.csproj",
+    "clean:Orders.sln": "dotnet clean src/server/Apis/Orders/Orders.sln",
+    "restore:Orders.sln": "dotnet restore src/server/Apis/Orders/Orders.slns",
+    "start:Products.Api": "dotnet run --project src/server/Apis/Products/Products.Api/Products.Api.csproj",
+    "build:Products.Api": "dotnet build src/server/Apis/Products/Products.Api/Products.Api.csproj",
+    "publish:Products.Api": "dotnet publish src/server/Apis/Products/Products.Api/Products.Api.csproj",
+    "clean:Products.sln": "dotnet clean src/server/Apis/Products/Products.sln",
+    "restore:Products.sln": "dotnet restore src/server/Apis/Products/Products.slns"
+  }
+}
