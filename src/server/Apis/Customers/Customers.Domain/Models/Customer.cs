@@ -1,7 +1,6 @@
-using System;
-using Framework;
+using Framework.Database;
 
-namespace Customers.Domain
+namespace Customers.Domain.Models
 {
     public class Customer : BaseEntity
     {

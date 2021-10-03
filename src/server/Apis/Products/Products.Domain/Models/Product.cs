@@ -1,7 +1,6 @@
-using System;
-using Framework;
+using Framework.Database;
 
-namespace Products.Domain
+namespace Products.Domain.Models
 {
     public class Product : BaseEntity
     {

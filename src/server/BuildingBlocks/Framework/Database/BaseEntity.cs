@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Framework
+namespace Framework.Database
 {
     public class BaseEntity
     {

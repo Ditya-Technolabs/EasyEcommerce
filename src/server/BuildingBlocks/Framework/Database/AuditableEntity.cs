@@ -1,6 +1,6 @@
 using System;
 
-namespace Framework
+namespace Framework.Database
 {
     public class AuditableEntity : BaseEntity
     {

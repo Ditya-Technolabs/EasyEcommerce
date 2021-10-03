@@ -1,7 +1,6 @@
-using System;
-using Framework;
+using Framework.Database;
 
-namespace Orders.Domain
+namespace Orders.Domain.Models
 {
     public class Order : BaseEntity
     {
